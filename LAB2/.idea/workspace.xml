@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2566d67-3ccc-484d-81b0-9bb3b1873def" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Zadanie1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/starter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Zadanie1_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Zadanie2_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LAB3/src/main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LAB2/Zadanie1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LAB2/starter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LAB2/starter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Zadanie1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Zadanie1_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/starter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/starter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +41,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="I:/Dysk kopia/test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -53,13 +58,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -73,7 +80,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602492986447</updated>
-      <workItem from="1602492988884" duration="7913000" />
+      <workItem from="1602492988884" duration="7968000" />
+      <workItem from="1602509249300" duration="9124000" />
     </task>
     <servers />
   </component>
@@ -93,21 +101,21 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1220" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1602494829499" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1602500754891">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1602520091431">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602500754891" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1602500754891">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602520091431" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1602520091431">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602500754891" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1602500754891">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602520091431" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1602520091431">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602500754891" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1602500754891">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602520091431" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1602520091431">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602500754891" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602520091431" />
   </component>
 </project>
