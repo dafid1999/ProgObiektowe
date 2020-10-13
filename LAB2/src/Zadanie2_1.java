@@ -49,37 +49,43 @@ public class Zadanie2_1 {
         }
         System.out.println("Ilosc liczb które są kwadratami liczb parzystych: "+ilosc);
     }
-    /*public void podD(int n){
-
-        i=1;
+    public void podD(int n){
+        int [] liczby= new int[n];
+        i=0;
         ilosc=0;
         System.out.printf("Podaj %d liczb naturalnych\n",n);
         while(i<n)
         {
-            int liczba=scan.nextInt();
-
-            if(Math.sqrt(liczba) %2 == 0)
-            {
-                ilosc++;
-            }
+            liczby[i]=scan.nextInt();
             i++;
         }
+
+        for(i=1;i<n-1;i++)
+        {
+            if (liczby[i] < (double)(liczby[i - 1] + liczby[i + 1]) / 2) {
+                    ilosc++;
+            }
+        }
+
         System.out.println("Ilosc liczb spełniające warunek: "+ilosc);
     }
-    /*public void podE(int n){
+    public void podE(int n){
+        int silnia=1;
         i=1;
         ilosc=0;
         System.out.printf("Podaj %d liczb naturalnych\n",n);
         while(i<=n)
         {
             int liczba=scan.nextInt();
-            if(Math.sqrt(liczba) %2 == 0)
-            {
+            silnia*=i;
+            if((liczba>Math.pow(2,i)) & (liczba<silnia)) {
                 ilosc++;
             }
             i++;
         }
-        System.out.println("Ilosc liczb spełniające warunek: "+ilosc);*/
+        System.out.println("Ilosc liczb spełniające warunek: "+ilosc);
+    }
+
     public void podF(int n){
         i=1;
         ilosc=0;
