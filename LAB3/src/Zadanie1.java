@@ -1,8 +1,7 @@
 import java.util.Scanner;
 
-public class starter {
+public class  Zadanie1{
     public static void main(String[] args) {
-        System.out.println("Starter uruchomiony");
         System.out.println("Proszę wpisać liczbę z przedzialu od 1 do 100\n");
 
         Scanner scan = new Scanner(System.in);
@@ -130,5 +129,39 @@ public class starter {
         for(i=0;i< tab.length;i++){
             System.out.println(tab[i]);
         }
+        // Zadanie 2
+        System.out.println("Zadanie2 - Proszę wpisać liczbę z przedzialu od 1 do 100\n");
+
+        while(true){
+            n=scan.nextInt();
+            if((n>=1)&&(n<=100)) break;
+            else System.out.println("Proszę poprawnie wpisać liczbę z przedzialu od 1 do 100");
+        }
+
+        System.out.println("Wpisz poprawnie najpierw liczbe z przedzialu od [1;n) oraz potem liczbe wieksza od pierwszej a mniejsza od n");
+
+        while(true){
+            lewy=scan.nextInt();
+            if((lewy>=1)&&(lewy<n)) break;
+            else System.out.println("Wpisz poprawnie najpierw liczbe z przedzialu od [1;n) oraz potem liczbe wieksza od pierwszej a mniejsza od n");
+        }
+        while(true){
+            prawy=scan.nextInt();
+            if((prawy>=1)&&(prawy<n)) break;
+            else System.out.println("Wpisz poprawnie najpierw liczbe z przedzialu od [1;n) oraz potem liczbe wieksza od pierwszej a mniejsza od n");
+        }
+
+        int [] tab2= new int[n];
+        Zadanie2.generuj(tab2,n,-999,999);
+        for (int k : tab2) {
+            System.out.print(k + " ");
+        }
+        System.out.println("\nLiczby parzyste: "+Zadanie2.ileParzystych(tab2)+"\nLiczby nieparzyste: "+Zadanie2.ileNieparzystych(tab2)+
+                "\nLiczby ujemne: "+Zadanie2.ileUjemnych(tab2)+"\nLiczby zerowe: "+Zadanie2.ileZerowych(tab2)+"\nLiczby dodatnie: "+Zadanie2.ileDodatnich(tab2)+
+                "\nIlosć występowań największej liczby: "+Zadanie2.ileMaksymalnych(tab2)+
+                "\nSuma liczb dodatnich: "+Zadanie2.sumaDodatnich(tab2)+"\nSuma liczb ujemnych: "+Zadanie2.sumaUjemnych(tab2)+
+                "\nIle najwięcej dodatnich po kolei: "+Zadanie2.dlugoscMaksymalnegoCiaguDodatnich(tab2));
+        Zadanie2.odwrocFragment(tab2,lewy,prawy);
+        Zadanie2.signum(tab2);
     }
 }
