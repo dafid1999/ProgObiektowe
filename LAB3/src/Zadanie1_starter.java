@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class  Zadanie1{
+public class Zadanie1_starter {
     public static void main(String[] args) {
         System.out.println("Proszę wpisać liczbę z przedzialu od 1 do 100\n");
 
@@ -163,5 +163,27 @@ public class  Zadanie1{
                 "\nIle najwięcej dodatnich po kolei: "+Zadanie2.dlugoscMaksymalnegoCiaguDodatnich(tab2));
         Zadanie2.odwrocFragment(tab2,lewy,prawy);
         Zadanie2.signum(tab2);
+
+        // Zadanie3
+        int m;
+        int k;
+        System.out.println("Proszę wpisać liczbę z przedzialu od 1 do 10, trzy razy");
+        while(true){
+            m=scan.nextInt();
+            if((m>=1)&&(m<=10)) break;
+            else System.out.println("Proszę poprawnie wpisać liczbę z przedzialu od 1 do 10");
+        }
+        while(true){
+            n=scan.nextInt();
+            if((n>=1)&&(n<=10)) break;
+            else System.out.println("Proszę poprawnie wpisać liczbę z przedzialu od 1 do 10");
+        }
+        while(true){
+            k=scan.nextInt();
+            if((k>=1)&&(k<=10)) break;
+            else System.out.println("Proszę poprawnie wpisać liczbę z przedzialu od 1 do 10");
+        }
+        Zadanie3 z3= new Zadanie3(m,n,k);
+        z3.wypisz();
     }
 }
