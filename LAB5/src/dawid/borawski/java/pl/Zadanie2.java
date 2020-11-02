@@ -16,4 +16,3 @@ public class Zadanie2 {
         return lista;
     }
 }
-// & a.indexOf(ia)>0  & b.indexOf(ib)>0
