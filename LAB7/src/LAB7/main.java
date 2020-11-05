@@ -14,11 +14,7 @@ public class main {
 
         Punkt c = new NazwanyPunkt(3, 6, "tawerna");
         c.show();
-
-        //a = b;               //  --- powoduje błąd kompilacji  (dlaczego ?)
-        //a = (NazwanyPunkt) b;  //   --- powoduje błąd wykonania   (dlaczego ?)
-
-        //a = c;                 //--- powoduje błąd kompilacji  (dlaczego ?)
+        
         a = (NazwanyPunkt) c;
         a.show();
     }
