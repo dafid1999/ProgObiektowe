@@ -14,24 +14,38 @@ public class main {
         a = (NazwanyPunkt) c;
         a.show();
 
-        Adres ad1= new Adres("Narciarska",15,"Elbląg","82-300");
-        Adres ad2= new Adres("Narciarska",15, 3,"Elbląg","82-301");
-        Adres ad3= new Adres("Narciarska",15, 3,"Elbląg","82-299");
+        Adres ad1= new Adres("Senatorska",95,"Białystok","19-260");
         ad1.pokaz();
+
+        Adres ad2= new Adres("Wiejska",1, 1,"Warszawa","00-001");
         ad2.pokaz();
+
+        Adres ad3= new Adres("Narciarska",15, 23,"Zakopane","94-299");
+        ad3.pokaz();
+
         System.out.println(ad1.przed(ad2));
         System.out.println(ad1.przed(ad3));
 
         Osoba Marian= new Osoba("Paździoch",1999);
-        Student Adam = new Student("Małysz",1978,"informatyka");
-        Nauczyciel Ignacy = new Nauczyciel("Paderewski",1888,23000);
         System.out.println(Marian);
-        System.out.println(Marian);
-        System.out.println(Adam);
-        System.out.println(Adam.getKierunek());
         System.out.println(Marian.getNazwisko());
         System.out.println(Marian.getRokUrodzenia());
+
+        Student Adam = new Student("Małysz",1978,"informatyka");
+        System.out.println(Adam);
+        System.out.println(Adam.getKierunek());
+
+        Nauczyciel Ignacy = new Nauczyciel("Paderewski",1888,23000);
+        System.out.println(Ignacy);
         System.out.println(Ignacy.getPensja());
+
+        BetterRectangle kwadrat = new BetterRectangle(3,3,5,5);
+        System.out.println(kwadrat.getArea());
+        System.out.println(kwadrat.getPerimeter());
+
+        BetterRectangle prostokat = new BetterRectangle(1,2,10,4);
+        System.out.println(prostokat.getArea());
+        System.out.println(prostokat.getPerimeter());
     }
 }
 
