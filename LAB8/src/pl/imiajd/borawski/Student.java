@@ -1,7 +1,6 @@
 package pl.imiajd.borawski;
 
-class Student extends Osoba
-{
+class Student extends Osoba {
     public Student(String nazwisko, String kierunek, double sredniaOcen)
     {
         super(nazwisko);

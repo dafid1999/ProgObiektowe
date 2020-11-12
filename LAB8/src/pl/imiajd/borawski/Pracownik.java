@@ -2,8 +2,7 @@ package pl.imiajd.borawski;
 
 import java.time.LocalDate;
 
-class Pracownik extends Osoba
-{
+class Pracownik extends Osoba {
     public Pracownik(String nazwisko, double pobory, LocalDate dataZatrudnienia)
     {
         super(nazwisko);
