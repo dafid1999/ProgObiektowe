@@ -15,13 +15,13 @@ public class main {
         po.wypisz();
 
         Egzamin2 po2= new Egzamin2();
-        po2.dodaj(new Student("Adrian","Albrecht",4),"bdb");
-        po2.dodaj(new Student("Amadeusz","Albrecht",3),"db");
-        po2.dodaj(new Student("Adrian","Albrecht",1),"dst");
-        po2.dodaj(new Student("Adrian","Paterson",2),"ndst");
+        po2.dodaj(new Student("Dawid","Borawski",4),"bdb");
+        po2.dodaj(new Student("Adam","Małysz",3),"dst");
+        po2.dodaj(new Student("Kamil","Stoch",1),"db");
+        po2.dodaj(new Student("Adrian","Zielinski",2),"ndst");
         po2.wypisz();
-        po2.usun(3);
-        po2.zmien(2,"dst+");
+        po2.usun(4);
+        po2.zmien(4,"bdb");
         po2.wypisz();
 
         FunMieszajaca fm= new FunMieszajaca("alice30.txt");
